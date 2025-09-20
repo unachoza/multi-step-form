@@ -19,3 +19,10 @@ Your users should be able to:
      - A field has been missed
      - The email address is not formatted correctly
      - A step is submitted, but no selection has been made
+
+
+## Resources
+
+CSS RESET
+https://piccalil.li/blog/a-more-modern-css-reset/
+https://www.joshwcomeau.com/css/custom-css-reset/
