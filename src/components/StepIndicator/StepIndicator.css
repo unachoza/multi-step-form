@@ -1,0 +1,48 @@
+.steps {
+      margin-left: 2rem;
+      margin-top: 2.5rem;
+}
+.step-container {
+      text-align: left;
+      display: flex;
+      margin-bottom: 2rem;
+
+}
+
+circle.number-circle{
+      display: flex;
+      height: 2.05rem;
+      width: 2.05rem;
+      border-radius: 50%;
+      background-color: var(--Sky-Blue);
+      align-items: center;
+      justify-content: center;
+      margin-right: 1rem;;
+}
+
+.content {
+      display: flex;
+      flex-direction: column;
+      gap: .25rem
+}
+
+.step-number{
+      color: var(--Light-Blue);
+      font-family: Ubuntu-Reg;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+}
+
+.step-title{
+      color: var(--White, #FFF);
+      font-family: Ubuntu-Bold;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.0625rem;
+      text-transform: uppercase;
+}

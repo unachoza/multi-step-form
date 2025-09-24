@@ -26,10 +26,11 @@ body::after {
 }
 
 .container {
-  border: solid red 3px;
   width: 58.75rem;
   height: 37.5rem;
   position: relative;
+  border-radius: 0.9375rem;
+  box-shadow: 0 25px 40px -20px rgba(0, 0, 0, 0.10);
 
 }
 
@@ -50,7 +51,6 @@ body::after {
 .user-form-container{
   width: 40.5rem;
   height: 100%;
-  border: solid pink;
   position: absolute;
   top: 1rem;
   right: 0rem;
