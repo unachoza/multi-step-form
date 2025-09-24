@@ -1,7 +1,22 @@
-import "./StepIndicator.css"
+import { formData } from "../../constants/data";
+import "./StepIndicator.css";
 
 const StepIndicator = () => {
-      return <h1>Step Indicator</h1>
-}
+	return (
+		<div className="steps">
+			{formData.map((step) => {
+				return (
+					<div className="step-container">
+						<circle className="number-circle">{step.stepNumber}</circle>
+						<div className="content">
+							<div className="step-number">step {step.stepNumber}</div>
+							<div className="step-title">{step.title}</div>
+						</div>
+					</div>
+				);
+			})}
+		</div>
+	);
+};
 
-export default StepIndicator
+export default StepIndicator;
