@@ -1,0 +1,30 @@
+.plan-card {
+      width: 8.625rem;
+      height: 10rem;
+      display: flex;
+      flex-direction: column;
+      border-radius: 0.5rem;
+      border: 1px solid var(--Purple, #483EFF);
+      background: var(--Very-Light-Grey, #F8F9FF);
+}
+
+.plan-card:active {
+      border: 1px solid var(--Purple, #483EFF);
+      background: var(--Very-Light-Grey, #F8F9FF);
+}
+
+.add-on-card {
+      width: 28.125rem;
+      height: 5.0625rem;
+      display: flex;
+      border-radius: 0.5rem;
+      border: 1px solid var(--Border-Color, #D6D9E6);
+      background: var(--White, #FFF);
+
+}
+
+.add-on-card:active {
+      border: 1px solid var(--Purple, #483EFF);
+      background: var(--Very-Light-Grey, #F8F9FF);
+      
+}
