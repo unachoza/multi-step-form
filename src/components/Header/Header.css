@@ -1,0 +1,14 @@
+h1.heading-title {
+      margin-right: 6.25rem ;
+      color: var(--Denim);
+      font-family: Ubuntu-Bold;
+      font-size: 2rem;
+      margin-top: 3.25rem;
+}
+
+p.subheading {
+      color: var(--Grey);
+      font-family: Ubuntu-Reg;
+      font-size: 1rem;
+      line-height: 1.5625rem; 
+}

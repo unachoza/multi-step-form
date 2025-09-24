@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Ubuntu-Reg;
+  src: url("./assets/fonts/Ubuntu-Regular.ttf");
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url("./assets/fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url("./assets/fonts/Ubuntu-Medium.ttf");
+}
+
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,13 +21,23 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--White);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --Denim: #022959;
+  --Grey: #9699AA;
+  --White: #fff;
+
+
 }
+
+
+
+
 
 /* CSS RESET  */
 /* 1. Use a more-intuitive box-sizing model */
